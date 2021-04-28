@@ -40,6 +40,7 @@ nav{
     line-height: 80px;                             /*per farla uscire dal flusso */
     font-size: 14px;
     text-transform: capitalize;
+    z-index: 999;
 }
 
 #logo{
@@ -76,6 +77,13 @@ nav .accedi{
     border-radius: 40px;
 }
 
+nav .accedi a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+}
+
 nav ul li a.nav-btn:hover{
     text-decoration: underline;
 }
@@ -91,4 +99,66 @@ nav ul li a.nav-btn:hover{
     position: relative;
 }
 
-.jumbotron .content
+.jumbotron .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+}
+
+.jumbotron .content h1{
+    font-size: 52px;
+    margin-bottom: 50px;
+    
+}
+
+.jumbotron .content p{
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 32px;
+}
+
+.btn-sect{
+    position: absolute;
+    bottom: 0;
+    transform: translate(0,100%);
+    width: 100%;
+    padding: 40px 0;
+}
+
+.btn-sect a i{
+    margin-right:10px;
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    height: 56px;
+    border-radius:56px;
+    line-height: 56px;
+    padding:0 30px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn:hover{
+    box-shadow:0 2px 8px #333333b6, 0 3px 8px #00000005;
+    transition: 0.2s;
+}
+
+.w-b{
+    color: black;
+    background-color: white;
+}
+
+.w-b:hover{
+    color:#738adb;
+}
+
+.b-w{
+    color:white ;
+    background-color:black ;
+}
+
