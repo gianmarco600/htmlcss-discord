@@ -1,0 +1,94 @@
+/* common */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* header */
+
+header{
+    width: 100vw;
+    text-align: center;
+}
+
+.container{
+    width:1180px;
+    margin:auto;
+}
+
+/* nav */
+
+nav{
+    
+    width: 1180px;
+    margin: auto;
+    height: 80px;
+    /* border: 1px solid black; */
+    position: absolute;
+    line-height: 80px;                             /*per farla uscire dal flusso */
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+#logo{
+    float: left;
+    margin: 23px 0;
+}
+
+
+
+nav ul{
+    display: inline;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav .accedi{
+    float: right;
+    background-color: white;
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    margin: 23px 0;
+    border-radius: 40px;
+}
+
+nav ul li a.nav-btn:hover{
+    text-decoration: underline;
+}
+
+/* jumbotron */
+
+.jumbotron{
+    background-image:url('../img/jumbo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:626px ;
+    width: 100%;
+    position: relative;
+}
+
+.jumbotron .content
