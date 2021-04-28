@@ -68,16 +68,13 @@ nav ul li a{
 }
 
 nav .accedi{
+    text-align: center;
     float: right;
     background-color: white;
-    width: 70px;
     height: 40px;
     line-height: 40px;
     margin: 23px 0;
     border-radius: 40px;
-}
-
-nav .accedi a{
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -162,3 +159,46 @@ nav ul li a.nav-btn:hover{
     background-color:black ;
 }
 
+/* main */
+section{
+    margin-top: 120px;
+}
+.float-l{
+    float: left;
+}
+
+.testo{
+    width: calc(100% - 678px - 110px);
+    margin-left: 100px;
+    padding-top: 30px;
+}
+
+.testo h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.testo p{
+    line-height: 1.6;
+}
+
+.side-img{
+    max-width: 678px;
+}
+
+/* wave */
+
+main > svg{
+    margin-top: -100px;
+    margin-bottom: -130px;
+}
+
+.grey{
+    background-color:#f3f4f5 ;
+    height: 680px;
+}
+
+.grey > .container > section{
+    padding-top: 100px;
+}
